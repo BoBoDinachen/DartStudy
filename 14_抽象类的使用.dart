@@ -15,8 +15,8 @@ main(List<String> args) {
  * 4.如果一个普通类继承了抽象类，那么抽象类中的方法必须要被实现
  */
 abstract class Person {
-  late String name;
-  late int age;
+  String name;
+  int age;
 }
 
 abstract class Shape {
@@ -24,8 +24,8 @@ abstract class Shape {
 }
 
 class Recangle extends Shape {
-  late double width;
-  late double height;
+  double width;
+  double height;
   Recangle(this.width, this.height);
   @override
   double getArea() {
@@ -35,7 +35,7 @@ class Recangle extends Shape {
 }
 
 class Circle extends Shape {
-  late int r;
+  int r;
   final PI = 3.14;
   Circle(this.r);
   @override

@@ -6,7 +6,7 @@ main(List<String> args) {
 }
 
 class Animal {
-  late String name;
+  String name;
   Animal(this.name);
   void sleeping() {
     print("${name}正在睡觉...");
@@ -19,7 +19,7 @@ class Animal {
 
 class Person extends Animal {
   // 对继承的方法进行重写
-  late int age;
+  int age;
   // 利用super调用父类的构造器
   Person(this.age, String name) : super(name);
   @override
