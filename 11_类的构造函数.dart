@@ -13,9 +13,9 @@ main(List<String> args) {
 }
 
 class Animal {
-  String name;
-  int age;
-  String type;
+  String? name;
+  int? age;
+  String? type;
   // 1.将构造函数里的参数变成命名可选参数
   // Animal({required String name, required int age, required String type}) {
   //   this.name = name;

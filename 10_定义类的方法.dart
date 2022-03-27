@@ -9,8 +9,8 @@ main(List<String> args) {
 
 // 定义一个类
 class Animal {
-  String name;
-  int age;
+  late String name;
+  late int age;
 
   void eating() {
     print("${this.name}在吃东西....");

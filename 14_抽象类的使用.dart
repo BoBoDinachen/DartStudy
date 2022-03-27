@@ -15,8 +15,8 @@ main(List<String> args) {
  * 4.如果一个普通类继承了抽象类，那么抽象类中的方法必须要被实现
  */
 abstract class Person {
-  String name;
-  int age;
+  late String name;
+  late int age;
 }
 
 abstract class Shape {
